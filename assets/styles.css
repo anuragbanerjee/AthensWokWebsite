@@ -1,0 +1,55 @@
+div.cover, #cover {
+  background-image: url("Cover.jpeg");
+  background-size: cover;
+  text-align: center;
+  color: white;
+}
+
+img {
+  border-radius: 4px;
+}
+
+.menu-navbar {
+  text-align: center;
+}
+
+.menu-navbar a, .menu-navbar a:hover {
+  display: inline-block;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  background: #801515;
+  color: white;
+}
+
+.menu-category h2 {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.menu-entry {
+  padding: 10px;
+  border-bottom: 1px dashed #ccc;
+}
+
+.menu-entry:last-child {
+  border: 0;
+}
+
+.menu-entry:hover {
+  background: #fffbbf;
+}
+
+.menu-entry span {
+  padding: 10px;
+  float: right;
+  display: inline-block;
+}
+
+#footer {
+  margin-top: 50px;
+  padding: 50px;
+  border-top: 1px solid #ccc;
+  text-align: center;
+  font-size: 50px;
+}
