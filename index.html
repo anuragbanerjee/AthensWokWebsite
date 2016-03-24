@@ -34,7 +34,8 @@
         <div class="jumbotron cover">
           <img src="assets/Athens Wok.png" height="300" width="300">
           <h1>Athens Wok</h1>
-          <p><br>493 East Clayton Street, Athens, GA 30601<br>(706) 850-2695
+          <p>
+          493 East Clayton Street, Athens, GA 30601<br>(706) 850-2695 or (706) 248-3813
           <br><br>
           <small>Monday-Sunday 11AM–9:30PM<br></small>
           </p>
@@ -52,10 +53,16 @@
                 {{#each menu}}
                   <div class="menu-category" id="{{category}}">
                       <h2>{{category}}</h2>
+                      {{#if description}}
+                         <h6>{{description}}</h6>
+                       {{/if}}
                       {{#each entries}}
                         <div class="menu-entry">
                           <span>${{price}}</span>
                           <h4>{{name}}</h4>
+                          {{#if description}}
+                             <p>{{description}}</p>
+                           {{/if}}
                         </div>
                       {{/each}}
                     </div>

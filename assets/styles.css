@@ -1,8 +1,17 @@
 div.cover {
-  background-image: url("Cover.jpeg");
+  background: url("Cover.jpeg");
   background-size: cover;
   text-align: center;
   color: white;
+  overflow: auto;
+  text-shadow: 1px 1px black;
+}
+
+div.cover p {
+  max-width: 450px;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 img {
@@ -25,6 +34,14 @@ img {
 .menu-category h2 {
   text-align: center;
   padding-top: 50px;
+}
+
+.menu-category h2 + h6 {
+  text-align: center;
+}
+
+.menu-category h4 + p {
+  color: #aaa;
 }
 
 .menu-entry {
