@@ -64,7 +64,66 @@ var menu = [
   },
 
   {
+    "category": "Chinese Lunch Menu",
+    "description": "All lunch entrees come with steamed rice, choice of meat/veggie, and a soup/roll. Meat options include chicken, beef, and pork. Shrimp and fried rice are available for $1 extra.",    "entries": [
+      {"name": "Chicken Fried Rice", "price": "6.95"},
+      {"name": "Pork Fried Rice", "price": "6.95"},
+      {"name": "Beef Fried Rice", "price": "6.95"},
+      {"name": "House Fried Rice", "price": "6.95"},
+      {"name": "Shrimp Fried Rice", "price": "7.95"},
+      {"name": "Moo Goo Gai Pan", "price": "6.95"},
+      {"name": "Teriyaki Chicken", "price": "6.95"},
+      {"name": "Teriyaki Beef", "price": "6.95"},
+      {"name": "Shrimp with Lobster Sauce", "price": "7.95"},
+      {"name": "Spicy Mafu Tofu", "price": "6.95"},
+      {"name": "Kung Pao Chicken", "price": "6.95"},
+      {"name": "Kung Pao Beef", "price": "6.95"},
+      {"name": "House Special Noodle with Chicken", "price": "6.95"},
+      {"name": "House Special Noodle with Beef", "price": "6.95"},
+      {"name": "Orange Chicken", "price": "6.95"},
+      {"name": "Pepper Steak", "price": "6.95"},
+      {"name": "Pepper Chicken", "price": "6.95"},
+      {"name": "Beef & Broccoli", "price": "6.95"},
+      {"name": "Chicken & Broccoli", "price": "6.95"},
+      {"name": "General Tao’s Chicken", "price": "6.95"},
+      {"name": "Lomein", "price": "6.95"},
+      {"name": "Mongolian Beef", "price": "6.95"},
+      {"name": "Mongolian Chicken", "price": "6.95"},
+      {"name": "Sesame Chicken", "price": "6.95"},
+      {"name": "Garlic Chicken", "price": "6.95"},
+      {"name": "Garlic Beef", "price": "6.95"},
+      {"name": "Sweet & Sour Chicken", "price": "6.95"},
+      {"name": "Sweet & Sour Shrimp", "price": "7.95"},
+      {"name": "Cashew Nut Chicken", "price": "6.95"},
+      {"name": "Cashew Nut Beef", "price": "6.95"}
+    ]
+  },
+
+  {
+    "category": "Thai Lunch Menu",
+    "description": "All lunch entrees come with steamed rice, choice of meat/veggie, and a soup/roll. Meat options include chicken, beef, and pork. Shrimp and fried rice are available for $1 extra.",
+    "entries": [
+      {"name": "Thai Fried Rice", "price": "6.95"},
+      {"name": "Pad See U", "price": "6.95"},
+      {"name": "Pad Basil", "price": "6.95"},
+      {"name": "Pad Pik Pow", "price": "6.95"},
+      {"name": "Pad Pik Khing", "price": "6.95"},
+      {"name": "Basil Fried Rice", "price": "6.95"},
+      {"name": "Panang Curry", "price": "6.95"},
+      {"name": "Green Curry", "price": "6.95"},
+      {"name": "Yellow Curry", "price": "6.95"},
+      {"name": "Masaman Curry", "price": "6.95"},
+      {"name": "Pad Thai", "price": "6.95"},
+      {"name": "Larb Chicken", "price": "6.95"},
+      {"name": "Larb Pork", "price": "6.95"},
+      {"name": "Larb Beef", "price": "6.95"},
+      {"name": "Pad Kee Mao", "price": "6.95"}
+    ]
+  },
+
+  {
     "category": "Chinese Dinner Entrees",
+    "description": "All dinner entrees come with steamed rice and choice of meat/veggie. Meat options include chicken, beef, and pork. Shrimp and fried rice are available for $2 extra.",
     "entries": [
       {"name": "Chicken Fried Rice", "price": "8.95"},
       {"name": "Pork Fried Rice", "price": "8.95"},
@@ -75,7 +134,7 @@ var menu = [
       {"name": "Teriyaki Chicken", "price": "8.95"},
       {"name": "Teriyaki Beef", "price": "8.95"},
       {"name": "Shrimp with Lobster Sauce", "price": "10.95"},
-      {"name": "Spicy Mafu tofu", "price": "8.95"},
+      {"name": "Spicy Mafu Tofu", "price": "8.95"},
       {"name": "Kung Pao Chicken", "price": "8.95"},
       {"name": "Kung Pao Beef", "price": "8.95"},
       {"name": "House Special Noodle with Chicken", "price": "8.95"},
@@ -101,6 +160,7 @@ var menu = [
 
   {
     "category": "Thai Dinner Entrees",
+    "description": "All dinner entrees come with steamed rice and choice of meat/veggie. Meat options include chicken, beef, and pork. Shrimp and fried rice are available for $2 extra.",
     "entries": [
       {"name": "Thai Fried Rice (Dinner)", "price": "8.95"},
       {"name": "Pad See U (Dinner)", "price": "8.95"},
@@ -130,63 +190,6 @@ var menu = [
       {"name": "Pad Basil Seafood", "price": "11.59"},
       {"name": "Pan Fried Noodle Seafood", "price": "13.59"},
       {"name": "Lomein Seafood", "price": "13.59"},
-    ]
-  },
-
-  {
-    "category": "Chinese Lunch Menu",
-    "entries": [
-      {"name": "Chicken Fried Rice", "price": "6.95"},
-      {"name": "Pork Fried Rice", "price": "6.95"},
-      {"name": "Beef Fried Rice", "price": "6.95"},
-      {"name": "House Fried Rice", "price": "6.95"},
-      {"name": "Shrimp Fried Rice", "price": "7.95"},
-      {"name": "Moo Goo Gai Pan", "price": "6.95"},
-      {"name": "Teriyaki Chicken", "price": "6.95"},
-      {"name": "Teriyaki Beef", "price": "6.95"},
-      {"name": "Shrimp with Lobster Sauce", "price": "7.95"},
-      {"name": "Spicy Mafu tofu", "price": "6.95"},
-      {"name": "Kung Pao Chicken", "price": "6.95"},
-      {"name": "Kung Pao Beef", "price": "6.95"},
-      {"name": "House Special Noodle with Chicken", "price": "6.95"},
-      {"name": "House Special Noodle with Beef", "price": "6.95"},
-      {"name": "Orange Chicken", "price": "6.95"},
-      {"name": "Pepper Steak", "price": "6.95"},
-      {"name": "Pepper Chicken", "price": "6.95"},
-      {"name": "Beef & Broccoli", "price": "6.95"},
-      {"name": "Chicken & Broccoli", "price": "6.95"},
-      {"name": "General Tao’s Chicken", "price": "6.95"},
-      {"name": "Lomein", "price": "6.95"},
-      {"name": "Mongolian Beef", "price": "6.95"},
-      {"name": "Mongolian Chicken", "price": "6.95"},
-      {"name": "Sesame Chicken", "price": "6.95"},
-      {"name": "Garlic Chicken", "price": "6.95"},
-      {"name": "Garlic Beef", "price": "6.95"},
-      {"name": "Sweet & Sour Chicken", "price": "6.95"},
-      {"name": "Sweet & Sour Shrimp", "price": "7.95"},
-      {"name": "Cashew Nut Chicken", "price": "6.95"},
-      {"name": "Cashew Nut Beef", "price": "6.95"}
-    ]
-  },
-
-  {
-    "category": "Thai Lunch Menu",
-    "entries": [
-      {"name": "Thai Fried Rice", "price": "6.95"},
-      {"name": "Pad See U", "price": "6.95"},
-      {"name": "Pad Basil", "price": "6.95"},
-      {"name": "Pad Pik Pow", "price": "6.95"},
-      {"name": "Pad Pik Khing", "price": "6.95"},
-      {"name": "Basil Fried Rice", "price": "6.95"},
-      {"name": "Panang Curry", "price": "6.95"},
-      {"name": "Green Curry", "price": "6.95"},
-      {"name": "Yellow Curry", "price": "6.95"},
-      {"name": "Masaman Curry", "price": "6.95"},
-      {"name": "Pad Thai", "price": "6.95"},
-      {"name": "Larb Chicken", "price": "6.95"},
-      {"name": "Larb Pork", "price": "6.95"},
-      {"name": "Larb Beef", "price": "6.95"},
-      {"name": "Pad Kee Mao", "price": "6.95"}
     ]
   }
 ];

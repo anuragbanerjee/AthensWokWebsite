@@ -8,7 +8,7 @@ div.cover {
 }
 
 div.cover p {
-  max-width: 450px;
+  max-width: 500px;
   padding: 20px;
   margin-left: auto;
   margin-right: auto;
@@ -40,6 +40,15 @@ img {
   text-align: center;
 }
 
+@media (max-width: 768px) {
+  .menu-category h2 + h6 {
+    text-align: initial;
+    max-width: 500px;
+    margin: auto;
+    padding: 10px;
+  }
+}
+
 .menu-category h4 + p {
   color: #aaa;
 }
@@ -69,6 +78,10 @@ img {
   border-top: 1px solid #ccc;
   text-align: center;
   font-size: 50px;
+}
+
+#footer a {
+  text-decoration: none;
 }
 
 #footer span {
